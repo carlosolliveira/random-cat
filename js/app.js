@@ -5,6 +5,8 @@ var url = "https://aws.random.cat/meow" //retorna json com o link da imagem
 
 function datau(json){
     document.getElementById('img').src = json.file
+    getElementById('img').setAttribute("onload", "load()")
+    load()
 }
 
 
