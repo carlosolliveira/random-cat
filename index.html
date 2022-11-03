@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,12 @@
 <script src="js/app.js" defer></script>
 <body>
     <main>
-        <div><img src="cat/cat.jpg" alt="" id="img"></div>
+        <div>
+            <img src="cat/cat.jpg" alt="" id="img" onload="load()">
+            <div id="load">
+                <div class="circle"></div>
+            </div>
+        </div>
         <button id="rdm">Random</button>
         <p>By <a href="https://github.com/carlosolliveira/" target="_blank">@carlosolliveira</a></p>
     </main>
